@@ -1,0 +1,23 @@
+//Array
+
+let numeros = [1,2,3,4,5];
+
+//Loop for q percorre cada número no array 'números'
+for(let i = 0; i < numeros.length; i++) {
+    let numero = numeros[i];
+    console.log(`O número atual é ${numero}`);//Template String
+    console.log("O número atual é: " + numero);
+}
+
+let numeros2 = [1,2,3,4,5];
+
+for(let i = 0; i < numeros2.length; i++) {
+    let numero = numeros2[i];
+    if (numero % 2 === 1) {
+        console.log("O nro " + numero + " é ímpar.")
+    }
+}
+
+let tipo = (num % 2 === 0) ? "par" : "impar";
+
+console.log(tipo);

@@ -1,0 +1,47 @@
+body {
+    color: gray;
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 2em;
+}
+
+button {
+    background-color: #545554;
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0 / 53%) 0px 5px 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+  }
+    button:hover {
+        background-color: rgb(21, 21, 21);
+    }
+
+  #mostrarMensagem {
+    margin: 1.5em 0;
+  }
+
+  #bgTexto {
+    background-color: #f1f1f1;   
+    color:rgb(108, 108, 108);
+    font-size: 0.4em;
+    line-height: 36px;
+    padding: 1em 2em;
+    text-align: justify;
+  }
+
+  #btn1 {
+    float:left;   
+    margin-top: 2em;
+    text-align: center; 
+  }
+
+  #btn2 {
+    float:right; 
+    margin-top: 2em;
+    text-align: center;   
+  }

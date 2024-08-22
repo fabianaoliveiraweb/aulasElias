@@ -1,0 +1,38 @@
+/* Estilos para o primeiro contêiner */
+.container {
+    display: flex; /* Ativa o Flexbox */
+   /* justify-content: space-between; /* Alinha os itens horizontalmente com espaçamento entre eles */
+    justify-content:space-around;
+    align-items: center; /* Centraliza os itens verticalmente */
+    height: 200px; /* Altura do contêiner */
+    background-color: #653ee6; /* Cor de fundo do contêiner */
+    padding: 20px; /* Espaçamento interno do contêiner */
+}
+
+/* Estilos para os itens do primeiro contêiner */
+.item {
+    background-color: #3498db; /* Cor de fundo dos itens */
+    color: white; /* Cor do texto dos itens */
+    padding: 10px; /* Espaçamento interno dos itens */
+    border-radius: 4px; /* Borda arredondada dos itens */
+}
+
+/* Estilos para o segundo contêiner */
+.container2 {
+    justify-content: space-around; /* Alinha os itens horizontalmente com espaço ao redor */
+    align-items: center; /* Alinha os itens no topo */
+    height: 300px; /* Altura do contêiner */
+    background-color: #f0c7c7; /* Cor de fundo do contêiner */
+    padding: 30px; /* Espaçamento interno do contêiner */
+}
+
+/* Estilos para os itens do segundo contêiner */
+.item2 {
+    background-color: #e74c3c; /* Cor de fundo dos itens */
+    color: white; /* Cor do texto dos itens */
+    padding: 20px; /* Espaçamento interno dos itens */
+    text-align: center;
+    border-radius: 8px; /* Borda arredondada dos itens */
+    margin:30px 0;
+    width: 100px; /* Largura dos itens */
+}
